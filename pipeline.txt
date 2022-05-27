@@ -1,0 +1,11 @@
+pipeline{
+      agent any
+      stages{
+      stage('Init message'){
+           echo "Started executing the given python program using jenkins pipeline"
+      }
+      stage('Build'){
+           echo "Started build for given python file"
+      }
+      }
+}
